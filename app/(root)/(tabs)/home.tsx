@@ -7,10 +7,11 @@ import { Text, View, TouchableOpacity, Image, FlatList, ActivityIndicator } from
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import GoogleTextInput from "@/components/GoogleTextInput";
-import { useLocationStore } from "@/store";
+import Map from "@/components/Map";
 import RideCard from "@/components/RideCard";
 import { icons, images } from "@/constants";
 import { useFetch } from "@/lib/fetch";
+import { useLocationStore } from "@/store";
 import { Ride } from "@/types/type";
 
 const Home = () => {
@@ -93,7 +94,9 @@ const Home = () => {
 
             <>
               <Text className="text-xl font-JakartaBold mt-5 mb-3">Your current location</Text>
-              <View className="flex flex-row items-center bg-transparent h-[300px]"></View>
+              <View className="flex flex-row items-center bg-transparent h-[300px]">
+                <Map />
+              </View>
             </>
 
             <Text className="text-xl font-JakartaBold mt-5 mb-3">Recent Rides</Text>
