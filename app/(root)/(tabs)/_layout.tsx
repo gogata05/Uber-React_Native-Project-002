@@ -1,10 +1,7 @@
 import { Tabs } from "expo-router";
 import { Image, ImageSourcePropType, View } from "react-native";
 
-const homeIcon = require("../assets/home.png");
-const listIcon = require("../assets/list.png");
-const chatIcon = require("../assets/chat.png");
-const profileIcon = require("../assets/profile.png");
+import { icons } from "@/constants";
 
 const TabIcon = ({ source, focused }: { source: ImageSourcePropType; focused: boolean }) => (
   <View className={`flex flex-row justify-center items-center rounded-full ${focused ? "bg-general-300" : ""}`}>
@@ -42,7 +39,7 @@ export default function Layout() {
         options={{
           title: "Home",
           headerShown: false,
-          tabBarIcon: ({ focused }) => <TabIcon source={homeIcon} focused={focused} />
+          tabBarIcon: ({ focused }) => <TabIcon source={icons.home} focused={focused} />
         }}
       />
       <Tabs.Screen
@@ -50,7 +47,7 @@ export default function Layout() {
         options={{
           title: "Rides",
           headerShown: false,
-          tabBarIcon: ({ focused }) => <TabIcon source={listIcon} focused={focused} />
+          tabBarIcon: ({ focused }) => <TabIcon source={icons.list} focused={focused} />
         }}
       />
       <Tabs.Screen
@@ -58,7 +55,7 @@ export default function Layout() {
         options={{
           title: "Chat",
           headerShown: false,
-          tabBarIcon: ({ focused }) => <TabIcon source={chatIcon} focused={focused} />
+          tabBarIcon: ({ focused }) => <TabIcon source={icons.chat} focused={focused} />
         }}
       />
       <Tabs.Screen
@@ -66,7 +63,7 @@ export default function Layout() {
         options={{
           title: "Profile",
           headerShown: false,
-          tabBarIcon: ({ focused }) => <TabIcon source={profileIcon} focused={focused} />
+          tabBarIcon: ({ focused }) => <TabIcon source={icons.profile} focused={focused} />
         }}
       />
     </Tabs>
