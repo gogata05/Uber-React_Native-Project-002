@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+# Screenshots
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 1. Get Started Page
 
-## Get started
+![Get Started Page](assets/images/ImagesReadMeMD/1Get%20Started%20Page%201.jpg)
 
-1. Install dependencies
+## 2. Sign in with Google
 
-   ```bash
-   npm install
-   ```
+![Sign in with Google](assets/images/ImagesReadMeMD/5Sign%20in%20with%20Google.jpg)
 
-2. Start the app
+## 3. Choose a Rider - Google Maps
 
-   ```bash
-    npx expo start
-   ```
+![Choose a Rider](assets/images/ImagesReadMeMD/7Choose%20a%20Rider%20page.jpg)
 
-In the output, you'll find options to open the app in a
+## 4. Rider Details
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![Rider Details](assets/images/ImagesReadMeMD/7Rider%20Details.jpg)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 5. Stripe Payment
 
-## Get a fresh project
+![Stripe Payment](assets/images/ImagesReadMeMD/8Stripe%20Payment.jpg)
 
-When you're ready, run:
+## 6. Recent Rides 1
 
-```bash
-npm run reset-project
-```
+![Recent Rides 1](assets/images/ImagesReadMeMD/9Recent%20Rides%203.jpg)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 7. All Rides
 
-## Learn more
+![All Rides](assets/images/ImagesReadMeMD/10All%20Rides.jpg)
 
-To learn more about developing your project with Expo, look at the following resources:
+## 8. From To Ride
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+![From To Ride](assets/images/ImagesReadMeMD/6From%20To%20Ride.jpg)
 
-## Join the community
+## 9. Recent Rides 2
 
-Join our community of developers creating universal apps.
+![Recent Rides 2](assets/images/ImagesReadMeMD/6Recent%20Rides%201.jpg)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 10. Access location
+
+![Access location](assets/images/ImagesReadMeMD/12Access%20location.jpg)
