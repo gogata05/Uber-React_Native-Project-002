@@ -39,3 +39,43 @@
 ## 10. Access location
 
 ![Access location](assets/images/ImagesReadMeMD/12Access%20location.jpg)
+
+## 11. Enter Verification Code
+
+![Enter Verification Code](assets/images/ImagesReadMeMD/13Enter%20Varification%20Code.jpg)
+
+## 12. Email Verification Code - using Clear Auth
+
+![Email Verification Code](assets/images/ImagesReadMeMD/14Email%20Varification%20Code.jpg)
+
+## 13. Search Destination - With Google Places API
+
+![Search Destination](assets/images/ImagesReadMeMD/15Search%20Destination.jpg)
+
+## 14. Profile
+
+![Profile](assets/images/ImagesReadMeMD/16Profile.jpg)
+
+## 15. Messages
+
+![Messages](assets/images/ImagesReadMeMD/17Messages.jpg)
+
+## 16. Register
+
+![Register](assets/images/ImagesReadMeMD/4Register.jpg)
+
+## 17. Login
+
+![Register](assets/images/ImagesReadMeMD/Login.jpg)
+
+## 18. Login
+
+![Register](assets/images/ImagesReadMeMD/success%20message.jpg)
+
+## 19. NeonDB PostgreSQL
+
+![NeonDB PostgreSQL](assets/images/ImagesReadMeMD/18NeonDB%20PostgreSQL.png)
+
+## 20. Clerk Authentication
+
+![Clerk Authentication](assets/images/ImagesReadMeMD/19Clerk%20Authentication.png)
